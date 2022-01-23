@@ -1,0 +1,54 @@
+/* html, body { height: 100%; width: 100%; margin: 0; }
+div { height: 100%; width: 100%; } */
+
+h2,h5 { text-transform: uppercase; }
+h6{
+    font-size: smaller;
+}
+.profile-pic{
+    /* height: 50%; */
+    width: 50% !important;
+}
+
+.chat-pic{
+    width: 5%;
+}
+
+.profile-active,.right,.right-chat {
+    background-color: #E0E0E0 !important;
+}
+
+.chat-screen{
+    height:700px; 
+    width:100%;
+    overflow:hidden; 
+    overflow-y:auto;
+}
+
+.chat-profile{
+    height:670px; 
+    width:100%;
+    overflow:hidden; 
+    overflow-y:auto;
+}
+
+/* For Custom ScrollBar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
